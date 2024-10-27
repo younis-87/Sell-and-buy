@@ -1,0 +1,93 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    direction: rtl; /* للكتابة من اليمين إلى اليسار */
+
+    background-color: #f4f4f4;
+
+}
+
+.container {
+
+    max-width: 600px;
+
+    margin: 20px auto;
+
+    padding: 20px;
+
+    background-color: #fff;
+
+    border-radius: 8px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.color-list {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+
+}
+
+.color-item {
+
+    flex: 1 1 100px;
+
+    height: 100px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: white;
+
+    font-weight: bold;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+}
+
+.blue { background-color: blue; }
+
+.red { background-color: red; }
+
+.yellow { background-color: yellow; }
+
+.green { background-color: green; }
+
+.hidden {
+
+    display: none;
+
+}
+
+.product-item {
+
+    margin-top: 10px;
+
+    padding: 10px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+
+}
+
+input {
+
+    margin-top: 10px;
+
+    padding: 5px;
+
+    width: calc(50% - 10px);
+
+}
